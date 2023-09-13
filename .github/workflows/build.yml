@@ -11,4 +11,4 @@ jobs:
 
       - name: Build toolbox installer
         run: |
-          make -C CI/scripts/ build
+          make -C CI/scripts/ gen_tlbx
