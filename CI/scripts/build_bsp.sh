@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+set -ex
 
 if [ -z "${HDLBRANCH}" ]; then
 HDLBRANCH='hdl_2019_r2'
